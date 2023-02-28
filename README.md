@@ -1,1 +1,3 @@
-# netflix-clone
+# Netflix clone iOS app
+- UIKit
+- Swift
