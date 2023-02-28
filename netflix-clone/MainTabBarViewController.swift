@@ -11,7 +11,7 @@ class MainTabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemYellow
+        view.backgroundColor = UIColor(named: "background")
         
         let vc1 = UINavigationController(rootViewController: HomeViewController())
         let vc2 = UINavigationController(rootViewController: UpcomingViewController())
@@ -28,8 +28,8 @@ class MainTabBarViewController: UITabBarController {
         vc3.title = "Top Search"
         vc4.title = "Downloads"
         
-        tabBar.tintColor = .label
-        
+        tabBar.tintColor = UIColor(named: "yellowApp")
+        tabBar.unselectedItemTintColor = UIColor(named: "unselected")
         
         setViewControllers([vc1, vc2, vc3, vc4], animated: true)
     }

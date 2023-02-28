@@ -12,7 +12,9 @@ class UpcomingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .systemBackground
+        let color = UIColor(named: "background")
+
+        view.backgroundColor = color
     }
     
 
