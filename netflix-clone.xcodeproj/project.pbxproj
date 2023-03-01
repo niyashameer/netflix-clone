@@ -11,6 +11,7 @@
 		E31DEFE829AE30760058ECF3 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31DEFE729AE30760058ECF3 /* UpcomingViewController.swift */; };
 		E31DEFEA29AE309E0058ECF3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31DEFE929AE309E0058ECF3 /* SearchViewController.swift */; };
 		E31DEFEC29AE30BB0058ECF3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31DEFEB29AE30BB0058ECF3 /* DownloadsViewController.swift */; };
+		E31DF03029AF13D10058ECF3 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31DF02F29AF13D10058ECF3 /* CollectionViewTableViewCell.swift */; };
 		E3E8A3E529AE22A80065B86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E8A3E429AE22A80065B86E /* AppDelegate.swift */; };
 		E3E8A3E729AE22A80065B86E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E8A3E629AE22A80065B86E /* SceneDelegate.swift */; };
 		E3E8A3E929AE22A80065B86E /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E8A3E829AE22A80065B86E /* MainTabBarViewController.swift */; };
@@ -44,6 +45,7 @@
 		E31DEFE729AE30760058ECF3 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		E31DEFE929AE309E0058ECF3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E31DEFEB29AE30BB0058ECF3 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		E31DF02F29AF13D10058ECF3 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		E3E8A3E129AE22A80065B86E /* netflix-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "netflix-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E8A3E429AE22A80065B86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3E8A3E629AE22A80065B86E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,42 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		E31DF02929AF11970058ECF3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E31DF02F29AF13D10058ECF3 /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E31DF02A29AF11B50058ECF3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E31DF02C29AF120B0058ECF3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E31DF02D29AF12C20058ECF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E31DF02E29AF12D30058ECF3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		E3E8A3D829AE22A80065B86E = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +156,11 @@
 		E3E8A3E329AE22A80065B86E /* netflix-clone */ = {
 			isa = PBXGroup;
 			children = (
+				E31DF02E29AF12D30058ECF3 /* Managers */,
+				E31DF02D29AF12C20058ECF3 /* Resources */,
+				E31DF02C29AF120B0058ECF3 /* Models */,
+				E31DF02A29AF11B50058ECF3 /* ViewModels */,
+				E31DF02929AF11970058ECF3 /* Views */,
 				E31DEFE429AE2F920058ECF3 /* Controllers */,
 				E3E8A3E429AE22A80065B86E /* AppDelegate.swift */,
 				E3E8A3E629AE22A80065B86E /* SceneDelegate.swift */,
@@ -280,6 +323,7 @@
 			files = (
 				E31DEFEA29AE309E0058ECF3 /* SearchViewController.swift in Sources */,
 				E3E8A3E929AE22A80065B86E /* MainTabBarViewController.swift in Sources */,
+				E31DF03029AF13D10058ECF3 /* CollectionViewTableViewCell.swift in Sources */,
 				E31DEFEC29AE30BB0058ECF3 /* DownloadsViewController.swift in Sources */,
 				E3E8A3E529AE22A80065B86E /* AppDelegate.swift in Sources */,
 				E3E8A3E729AE22A80065B86E /* SceneDelegate.swift in Sources */,
